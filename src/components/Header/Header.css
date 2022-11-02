@@ -1,0 +1,75 @@
+.first-screen__header {
+    border: 1px solid rgba(152, 147, 147, 0.21)
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(21, 10, 1, 0.21);
+}
+
+.header__logo-block {
+    display: block;
+    padding: 25px 15px 30px 25px;
+
+    max-width: 316px;
+    height: 100px;
+    border-left: 1px solid rgba(152, 147, 147, 0.21);
+    border-right: 1px solid rgba(152, 147, 147, 0.21);
+
+    position: relative;
+}
+
+.logo__image {
+    margin: 0 auto;
+}
+
+.logo__image-img {
+    width: 274px;
+    height: 34px;
+}
+
+.header__corner {
+    position: absolute;
+}
+
+.header__corner_top-left {
+    top: -5.5px;
+    left: -1.5px;
+}
+
+.header__corner_bottom-left {
+    bottom: -4px;
+    left: -1.5px;
+}
+
+.header__corner_top-right {
+    top: -5.5px;
+    right: -1.5px;
+}
+
+.header__corner_bottom-right {
+    bottom: -4px;
+    right: -1.5px;
+}
+
+.menu__items {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menu__item {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px 0;
+    border: 1px solid transparent;
+    transition: .3s ease-out;
+}
+
+.menu__item:hover {
+    color: #b1b1b1;
+    border-bottom: 1px solid #3d3d3d;
+}
