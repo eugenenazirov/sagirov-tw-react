@@ -25,18 +25,18 @@ function Header() {
                             <path d="M7 0V7H0" stroke="white"/>
                         </svg>
                     </div>
-                    <div ref="#" className="logo__image">
-                        <img className="logo__image-img" src="../../images/SpaceX-Logo.svg" alt="Логотип SpaceX" />
+                    <div href="#" className="logo__image">
+                        <img className="logo__image-img" src="/SpaceX-Logo.svg" alt="Логотип SpaceX" />
                     </div>
                 </a>
                 <nav className="menu">
                     <ul className="menu__items">
-                        <li><a className="menu__item" ref="#main">Главная</a></li>
-                        <li><a className="menu__item" ref="#tech">Технология</a></li>
-                        <li><a className="menu__item" ref="#schedule">График полетов</a></li>
-                        <li><a className="menu__item" ref="#guarantee">Гарантии</a></li>
-                        <li><a className="menu__item" ref="#about">О компании</a></li>
-                        <li><a className="menu__item" ref="#contacts">Контакты</a></li>
+                        <li><a className="menu__item" href="#main">Главная</a></li>
+                        <li><a className="menu__item" href="#tech">Технология</a></li>
+                        <li><a className="menu__item" href="#schedule">График полетов</a></li>
+                        <li><a className="menu__item" href="#guarantee">Гарантии</a></li>
+                        <li><a className="menu__item" href="#about">О компании</a></li>
+                        <li><a className="menu__item" href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
