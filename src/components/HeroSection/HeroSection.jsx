@@ -1,8 +1,9 @@
 import './HeroSection.css';
-import flare1 from '../../images/flare1.png'
-import flare2 from '../../images/flare2.png'
-import bgMars from '../../images/bg-mars.png'
-import rocketLine from '../../images/rocket-line.png'
+import './HeroSectionAdaptive.css';
+import flare1 from '../../images/flare1.png';
+import flare2 from '../../images/flare2.png';
+import bgMars from '../../images/bg-mars.png';
+import rocketLine from '../../images/rocket-line.png';
 
 function HeroSection() {
     return (

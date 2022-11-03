@@ -73,3 +73,28 @@
     color: #b1b1b1;
     border-bottom: 1px solid #3d3d3d;
 }
+
+.burger {
+    display: none;
+    background: transparent;
+    border: none;
+    width: 60px;
+    height: 60px;
+    fill: url(#burgerGradient);
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.close {
+    display: none;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    background: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
