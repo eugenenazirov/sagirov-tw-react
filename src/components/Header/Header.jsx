@@ -1,6 +1,6 @@
 import './Header.css';
 import './HeaderAdaptive.css';
-import {useState} from "react";
+import { useState } from "react";
 
 function Header() {
     const [menuActive, setMenuActive] = useState(false);
