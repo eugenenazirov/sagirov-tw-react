@@ -33,7 +33,7 @@
     }
 
     .menu__items {
-        padding-top: 60px;
+        padding-top: 80px;
         flex-direction: column;
         align-items: center;
         gap: 50px;
